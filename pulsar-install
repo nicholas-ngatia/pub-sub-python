@@ -2,3 +2,4 @@ wget https://archive.apache.org/dist/pulsar/pulsar-2.6.1/apache-pulsar-2.6.1-bin
 tar xvfz apache-pulsar-2.6.1-bin.tar.gz
 cd apache-pulsar-2.6.1
 bin/pulsar standalone
+pip install pulsar-client
