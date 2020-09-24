@@ -18,7 +18,7 @@ while True:
     msg = consumer.receive()
     ex = msg.value()
     try:
-        # print the received message type and the message itself
+        # Print the received message type and the message itself
         print("Received message type a='{}' b='{}' c='{}' d='{}'".format(type(ex.a), type(ex.b), type(ex.c), type(ex.d)))
         print("Received message a='{}' b='{}' c='{}' d='{}'".format(ex.a, ex.b, ex.c, ex.d))
         consumer.acknowledge(msg)
