@@ -1,0 +1,4 @@
+wget https://archive.apache.org/dist/pulsar/pulsar-2.6.1/apache-pulsar-2.6.1-bin.tar.gz
+tar xvfz apache-pulsar-2.6.1-bin.tar.gz
+cd apache-pulsar-2.6.1
+bin/pulsar standalone
